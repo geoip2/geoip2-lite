@@ -1,5 +1,5 @@
 {
-  "name": "node-geoip2",
+  "name": "geoip2-lite",
   "version": "1.0.0",
   "description": "MaxMind's GeoIP2 API implementation on Native NodeJS",
   "main": "lib/geoip2.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/geoip2/node-geoip2.git"
+    "url": "git+https://github.com/geoip2/geoip2-lite.git"
   },
   "keywords": [
     "geolocation",
@@ -29,7 +29,7 @@
   "author": "Chandra Gupta <i@chandragupta.me> (https://chandragupta.me/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/geoip2/node-geoip2/issues"
+    "url": "https://github.com/geoip2/geoip2-lite/issues"
   },
-  "homepage": "https://github.com/geoip2/node-geoip2#readme"
+  "homepage": "https://github.com/geoip2/geoip2-lite#readme"
 }
