@@ -1,0 +1,31 @@
+{
+  "name": "geoip2",
+  "version": "1.0.0",
+  "description": "MaxMind's GeoIP2 API implementation on Native NodeJS",
+  "main": "lib/geoip2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geoip2/node-geoip2.git"
+  },
+  "keywords": [
+    "geolocation",
+    "geodata",
+    "geoip",
+    "geoip2",
+    "ipv4",
+    "ipv6",
+    "geolookup",
+    "geoip2-lite",
+    "maxmind",
+    "maxmin-api"
+  ],
+  "author": "Chandra Gupta <i@chandragupta.me> (https://chandragupta.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geoip2/node-geoip2/issues"
+  },
+  "homepage": "https://github.com/geoip2/node-geoip2#readme"
+}
