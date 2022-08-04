@@ -1,6 +1,6 @@
 {
   "name": "geoip2-lite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MaxMind's GeoIP2 API implementation on Native NodeJS",
   "main": "lib/geoip2.js",
   "scripts": {
