@@ -14,7 +14,7 @@ module.exports = {
 		],
 		"linebreak-style": [
 			"error",
-			"windows"
+			"unix"
 		],
 		"no-console": "off",
 		"no-constant-condition": "off",
