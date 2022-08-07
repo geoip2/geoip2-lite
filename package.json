@@ -19,23 +19,22 @@
     "geodata",
     "geoip",
     "geoip2",
+    "geoip-location",
+    "geoip-lookup",
+    "geoip-api",
     "ipv4",
     "ipv6",
     "geolookup",
     "geoip2-lite",
     "maxmind",
-    "maxmind-api",
+    "maxmind-db",
+    "maxmind-country",
+    "maxmind-city",
+    "maxmind-geoip",
+    "maxmind-geoip2-api",
     "node-geoip",
     "node-geoip2",
-    "geoip-lite",
-    "geolite",
-    "geoip2lite",
-    "geoiplite",
-    "ip",
-    "geoip lookup",
-    "geo country",
-    "geo state",
-    "geo city"
+    "geoip-lite"
   ],
   "author": "Chandra Gupta <i@chandragupta.me> (https://chandragupta.me/)",
   "license": "Apache-2.0",
@@ -57,8 +56,5 @@
   },
   "config": {
     "update": true
-  },
-  "devDependencies": {
-    "eslint": "^8.21.0"
   }
 }
