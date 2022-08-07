@@ -1,4 +1,4 @@
-GeoIP-lite
+GeoIP2-lite
 ==========
 
 A native NodeJS API for the GeoLite data from MaxMind written by Philip Tellis <philip@bluesmoon.info>.
