@@ -3,6 +3,7 @@ module.exports = {
 		"node": true
 	},
 	"extends": "eslint:recommended",
+    
 	"parserOptions": {
 		"ecmaVersion": 5
 	},
@@ -13,7 +14,7 @@ module.exports = {
 		],
 		"linebreak-style": [
 			"error",
-			"unix"
+			"windows"
 		],
 		"no-console": "off",
 		"no-constant-condition": "off",
