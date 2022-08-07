@@ -60,8 +60,8 @@ var databases = [
 		],
 		dest: [
 			'',
-			'geoip-country.dat',
-			'geoip-country6.dat'
+			'geoip2-country.dat',
+			'geoip2-country6.dat'
 		]
 	},
 	{
@@ -75,9 +75,9 @@ var databases = [
 			'GeoLite2-City-Blocks-IPv6.csv'
 		],
 		dest: [
-			'geoip-city-names.dat',
-			'geoip-city.dat',
-			'geoip-city6.dat'
+			'geoip2-city-names.dat',
+			'geoip2-city.dat',
+			'geoip2-city6.dat'
 		]
 	}
 ];
