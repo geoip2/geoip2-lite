@@ -6,7 +6,7 @@ modified for GeoIP2-Lite by Chandra Gupta <i@chandragupta.me>.
 
 This product includes GeoIP2 Lite data created by MaxMind, available from http://maxmind.com/
 
-[![Build Status](https://app.travis-ci.com/geoip2/geoip2-lite.svg?branch=main "GeoIP2 on Travis")](https://travis-ci.org/geoip2/geoip2-lite)
+[![Build Status](https://app.travis-ci.com/geoip2/geoip2-lite.svg?branch=main "GeoIP2 on Travis")](https://app.travis-ci.com/geoip2/geoip2-lite)
 
 Introduction
 ------------
@@ -57,7 +57,7 @@ console.log(geo);
 
 ```
 
-installation
+Installation
 ------------
 ### 1. get the library
 
