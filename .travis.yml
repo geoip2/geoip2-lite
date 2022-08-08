@@ -1,0 +1,18 @@
+language: node_js
+os: linux
+  dist: xenial
+node_js:
+- '8'
+sudo: false
+branches:
+  except:
+  - gh-pages
+install:
+- npm install
+script:
+- npm test
+- npm run-script updatedb
+- npm run-script updatedb force
+env:
+  global:
+    secure: 7L1ItEI/8x8POqGPwLe72w5iR7qsKqIVI5Uj/Wk2VLWHXedJAD41YrmNWD+i1+X5aabeVjEM5FGTX8fvWaRhs41JKOzCdN6E4oT45Kv6+IhBU7IIBTpqVvvcWFwWJBwkgtwGaS0vODlVj6UzUz8BoUs17zYFkk/P8V76R07V5MkFZojPLJG7eD5/OdnWDfUcBP3joVt8aRK6nLgOgpc7qmTa/9PZ8Z+g4rsK2+5AyvJm4LtJKPPvMVKen8Yp2UbXChNkt2R5CxvGsN2FwzNilbsoD4Fr/ZStzwyeo/ISR6ROCm+YTx3fP82Zy6dz44YR9h9yFGmC0/DBHnH2aHRLZDie0HEp99N1tQm/lOB9X6ZfRqj9lJ1BndocOjVyPmR6GX12J+rxA+h9jafjIXX33TGeUG3MIu3EP25SooIu+6x9cSHL8zLDlz658NLjsRTt1Ekg45Vg1moCm4x4slZt2uxGyxQbvgShnDqbrDeD5rVW/9A0FZlF/Es0w9aiV0wOdK0AYJAZhONEdEJipyMtVwpM1BmfXxxumLrnHCAxahaMHZaUmp5Z0vKqscRM8ATMUnSUwu2sPNUeVDsGjlM/xIGHpgzPE9MqJmJfX7ZkDG4LYsMHL6evI2PijdvXnyBJo+MEWEh7S1vk6e5sajLJ1MdSuiFb3HGKZ9UPW46dpCs=
