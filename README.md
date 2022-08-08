@@ -1,13 +1,14 @@
 GeoIP2-lite
 ==========
 
-A native NodeJS API for the GeoLite data from MaxMind written by Philip Tellis <philip@bluesmoon.info>.
+A native NodeJS API for the GeoIP2-Lite data from MaxMind originally written for geoip-lite by Philip Tellis <philip@bluesmoon.info> and
+modified for GeoIP2-Lite by Chandra Gupta <i@chandragupta.me>.
 
 This product includes GeoLite data created by MaxMind, available from http://maxmind.com/
 
-[![Build Status](https://travis-ci.org/bluesmoon/node-geoip.svg?branch=master "node-geoip on Travis")](https://travis-ci.org/bluesmoon/node-geoip)
+[![Build Status](https://app.travis-ci.com/geoip2/geoip2-lite.svg?branch=main "GeoIP2 on Travis")](https://travis-ci.org/geoip2/geoip2-lite)
 
-introduction
+Introduction
 ------------
 
 MaxMind provides a set of data files for IP to Geo mapping along with opensource libraries to parse and lookup these data files.
@@ -20,20 +21,21 @@ binary file to lookup IP addresses and return the country, region and city that 
 Both IPv4 and IPv6 addresses are supported, however since the GeoLite IPv6 database does not currently contain any city or region
 information, city, region and postal code lookups are only supported for IPv4.
 
-philosophy
+Philosophy
 ----------
 
-I was really aiming for a fast JavaScript native implementation for geomapping of IPs.  My prime motivator was the fact that it was
-really hard to get libgeoip built for Mac OSX without using the library from MacPorts.
+Philip Tellis was aiming for a fast JavaScript native implementation for geomapping of IPs.  His prime motivator was the fact that it was really hard to get libgeoip built for Mac OSX without using the library from MacPorts.
 
-why geoip2-lite
+After Philip Tellis abandoned the project, I picked up to update and upgrade the Library.
+
+Why geoip2-lite
 --------------
 
 `geoip2-lite` is a fully JavaScript implementation of the MaxMind GeoIP2 API.  It is not as fully featured as bindings that use `libgeoip`.
 By reducing scope, this package is about 40% faster at doing lookups.  On average, an IP to Location lookup should take 20 microseconds on
 a Macbook Pro.  IPv4 addresses take about 6 microseconds, while IPv6 addresses take about 30 microseconds.
 
-synopsis
+Synopsis
 --------
 
 ```javascript
@@ -138,6 +140,9 @@ Package stores checksums of MaxMind data and by default only downloads them if c
 ```shell
 #update data if new data is available
 npm run-script updatedb license_key=YOUR_LICENSE_KEY
+
+#update data to a different location
+npm run-script updatedb geodatadir=/path/to/target/directory license_key=YOUR_LICENSE_KEY
 
 #force udpate data even if checkums have not changed
 npm run-script updatedb-force license_key=YOUR_LICENSE_KEY
