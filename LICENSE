@@ -6,7 +6,9 @@ SOFTWARE LICENSE (Node JS library)
 
 The GEOIP2-LITE JavaScript library is licensed under the Apache License, Version 2.0:
 
-This project is an original work of Philip Tellis <philip@bluesmoon.info>
+This library is an original work of Philip Tellis <philip@bluesmoon.info>
+
+After Philip Tellis abandoned the project, Chandra Gupta <i@chandragupta.me> picked up to update and upgrade the Library.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

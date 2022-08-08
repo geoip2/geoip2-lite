@@ -4,7 +4,7 @@ GeoIP2-lite
 A native NodeJS API for the GeoIP2-Lite data from MaxMind originally written for geoip-lite by Philip Tellis <philip@bluesmoon.info> and
 modified for GeoIP2-Lite by Chandra Gupta <i@chandragupta.me>.
 
-This product includes GeoLite data created by MaxMind, available from http://maxmind.com/
+This product includes GeoIP2 Lite data created by MaxMind, available from http://maxmind.com/
 
 [![Build Status](https://app.travis-ci.com/geoip2/geoip2-lite.svg?branch=main "GeoIP2 on Travis")](https://travis-ci.org/geoip2/geoip2-lite)
 
