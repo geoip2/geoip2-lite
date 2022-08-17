@@ -6,7 +6,7 @@ modified for GeoIP2-Lite by Chandra Gupta <i@chandragupta.me>.
 
 This product includes GeoIP2 Lite data created by MaxMind, available from http://maxmind.com/
 
-[![Build Status](https://app.travis-ci.com/geoip2/geoip2-lite.svg?branch=main "GeoIP2 on Travis")](https://app.travis-ci.com/geoip2/geoip2-lite) [![Test](https://github.com/geoip2/geoip2-lite/workflows/Test/badge.svg "GeoIP2 on GitHub")](https://github.com/geoip2/geoip2-lite) [![Latest Version](https://img.shields.io/npm/v/geoip2-lite.svg) "Latest Version")](https://www.npmjs.com/package/geoip2-lite) [![Downloads](https://img.shields.io/npm/dm/geoip2-lite.svg "Downloads")](https://www.npmjs.com/package/geoip2-lite)
+[![Build Status](https://app.travis-ci.com/geoip2/geoip2-lite.svg?branch=main "GeoIP2 on Travis")](https://app.travis-ci.com/geoip2/geoip2-lite) [![Test](https://github.com/geoip2/geoip2-lite/workflows/Test/badge.svg "GeoIP2 on GitHub")](https://github.com/geoip2/geoip2-lite) [![Latest Version](https://img.shields.io/npm/v/geoip2-lite.svg "Latest Version")](https://www.npmjs.com/package/geoip2-lite) [![Downloads](https://img.shields.io/npm/dm/geoip2-lite.svg "Downloads")](https://www.npmjs.com/package/geoip2-lite)
 
 Introduction
 ------------
